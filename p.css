@@ -881,3 +881,94 @@ body {
   transform: scale(1.2);
   color: #000;
 }
+
+
+
+
+@media (max-width: 768px) {
+  body {
+    min-width: unset;
+    font-size: 15px;
+    padding: 1rem;
+  }
+
+  .about-text {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .about-img {
+    position: static;
+    width: 80%;
+    display: block;
+    margin: 1rem auto;
+    transform: none;
+  }
+
+  .greeting {
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .section-title {
+    padding: 3rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .block-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .block-images,
+  .block-text {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .block-name {
+    font-size: 1.2rem;
+  }
+
+  .project-info-desc {
+    width: 100%;
+    padding: 0 1rem;
+    font-size: 1rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .modal {
+    padding: 1rem;
+    width: 95vw;
+  }
+
+  .end-quote {
+    left: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+
+  .end-menu {
+    right: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .end-contact {
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .scramble-text {
+    font-size: 1.2rem;
+  }
+}
