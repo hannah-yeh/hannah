@@ -891,6 +891,10 @@ body {
 }
 
 
+#mobile-block {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   #site-content {
     display: none !important;
@@ -901,7 +905,10 @@ body {
     justify-content: center;
     align-items: center;
     position: fixed;
-    inset: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     background: #ffffff;
     z-index: 9999;
     text-align: center;
